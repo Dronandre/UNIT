@@ -1,0 +1,131 @@
+.section-management {
+    padding-top: 75px;
+    padding-bottom: 45px;
+    border-bottom: #e1e1e1 solid 1px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        display: block;
+        top: 0;
+        left: 39%;
+        width: 68px;
+        height: 68px;
+        background-color: #a4eecb;
+        transform: rotate(45deg) translate(-50%, -50%);
+    }
+
+    @media (min-width: 798px) {
+        padding-top: 65px;
+      
+        &::before {
+            display: none;
+        }
+
+    }
+
+    @media (min-width: 1230px) {
+
+        padding-top: 95px;
+        padding-bottom: 25px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            display: block;
+            top: 39%;
+            left: 0;
+            width: 187px;
+            height: 187px;
+            transform: rotate(45deg) translate(-50%, 50%);
+        }
+    }
+}
+
+.section-management-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 798px) {
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    @media (min-width: 1230px) {
+        flex-direction: row;
+    }
+}
+
+.section-management-content {
+    width: 100%;
+    text-align: center;
+
+    @media (min-width: 798px) {
+        width: 50%;
+        text-align: left;
+        padding-left: 33px;
+    }
+
+    @media (min-width: 1230px) {
+        padding-left: 100px;
+        padding-right: 45px;
+    }
+}
+
+.section-management_title {
+    margin-bottom: 40px;
+
+    @media (min-width: 798px) {
+        margin-bottom: 50px;
+    }
+
+    @media (min-width: 1230px) {
+        margin-bottom: 30px;
+    }
+}
+
+.section-management_header {
+    margin-bottom: 45px;
+
+    @media (min-width: 1230px) {
+        margin-bottom: 40px;
+
+    }
+}
+
+.section-management-content p {
+
+    @media (min-width: 670px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    @media (min-width: 798px) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
+
+.management-img {
+    margin-top: 55px;
+    width: 50%;
+
+    @media (min-width: 1230px) { 
+        padding-left: 70px;
+    }
+}
+
+.management-img img {
+    max-width: 100%;
+
+    @media (min-width: 1230px) {
+        max-width: unset;
+    }
+}
+
+
+

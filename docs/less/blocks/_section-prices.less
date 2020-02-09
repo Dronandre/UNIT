@@ -1,0 +1,62 @@
+.section-prices {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #49c38f;
+    
+    @media (min-width: 798px) {
+        padding-bottom: 80px;
+        background-image: url("../img/price/card-price.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;       
+    }
+
+    @media (min-width: 1230px) {
+        padding-top: 110px;
+        padding-bottom: 90px;     
+    }
+}
+
+.section-prices::before {
+   
+
+    @media (min-width: 798px) {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.section-prices-content {
+    z-index: 9;
+    text-align: center;
+}
+
+.section-prices-title {
+    margin-bottom: 35PX;
+
+    @media (min-width: 798px) {
+        margin-bottom: 38PX;       
+    }
+
+    @media (min-width: 1230px) {
+        margin-bottom: 73PX;     
+    }
+}  
+
+.section-prices-header {
+    margin-bottom: 50PX;
+
+    @media (min-width: 798px) {
+        margin-bottom: 65PX;       
+    }
+
+    @media (min-width: 1230px) {
+        margin-bottom: 80PX;     
+    }
+}
+

@@ -1,0 +1,65 @@
+.clients-carousel.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-100%, 100%);
+    width: 52px;
+    height: 52px;
+    background-image: url(../img/carousel/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    outline: none;
+    margin-left: -20px;
+
+    &hover {
+        opacity: 0.7;
+    }
+
+    @media (min-width: 798px) {
+        top: 0;
+        left: 0;
+        bottom: auto;
+        margin-left: 0;
+        transform: unset;  
+    }
+
+    @media (min-width: 1230px) {
+        top: 0;
+        left: -40px;
+        transform: translateX(-100%);        
+    }
+}
+
+.clients-carousel.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateY(100%);
+    width: 52px;
+    height: 52px;
+    background-image: url(../img/carousel/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    outline: none;
+    margin-left: 20px;
+    
+    &hover {
+        opacity: 0.7;
+    }
+
+    @media (min-width: 798px) {
+        top: 0;
+        right: -0;
+        left: auto;
+        margin-left: 0;
+        transform: unset;           
+    }
+
+    @media (min-width: 1230px) {
+        top: 0;
+        right: -40px;
+        transform: translateX(100%);        
+    }
+}
